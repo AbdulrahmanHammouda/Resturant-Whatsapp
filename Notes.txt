@@ -1,0 +1,35 @@
+***************** General Inforamtion ********************
+activate test_resturant
+
+
+
+
+
+**************** Twilio Inforamtion *********************************
+Twilio account gabryjabry@gmail.com
+Twilio message recovery code = cT4QoqtRFUAvSWu3IsrIlcYOcLmjETWCqw8Wo2pQ
+
+
+
+********************** DataBase Inforamtion ***********************
+postgress port = 5432
+
+
+drivername="postgresql",
+username=config("postgress"),
+password=config("123456"),
+host="localhost",
+database="postgress",
+port=5432
+
+
+
+**************************************** Running Application *********************************
+uvicorn main:app --reload
+
+
+ngrok http 8000
+
+
+
+

@@ -1,0 +1,8 @@
+1- To install the requirmenst
+pip install -r requirements.txt
+
+
+
+2- Configuring your database
+createdb mydb
+
